@@ -6,22 +6,29 @@ Using the provided credit card credit dataset from LendingClub, we are tasked to
 ### Oversampling:
 * **Naive Random**: Based on the results, our calulated **Balanced Accuracy** Score was 64.1%. The *High Risk* **Precision** and **Recall** scores were 1% and 60%. While the *Low Risk* **Precision** and **Recall** scores were 100% and 68%.
 
+![Naive Random](Naive_Random_Oversampling.png "Naive Random")
 
 * **SMOTE Algorithm**: Based on the results, our calulated **Balanced Accuracy** Score was 63.7%. The *High Risk* **Precision** and **Recall** scores were 1% and 60%. While the *Low Risk* **Precision** and **Recall** scores were 100% and 68%.
 
+![SMOTE Algorithm](SMOTE_Oversampling.png "SMOTE Algorithm")
 
 ### Undersampling
 * **Cluster Centroids**: Based on the results, our calulated **Balanced Accuracy** Score was 52.9%. The *High Risk* **Precision** and **Recall** scores were 1% and 61%. While the *Low Risk* **Precision** and **Recall** scores were 100% and 45%.
 
+![Cluster Centroids](Cluster_Centroid_Undersampling.png "Cluster Centroids")
 
 * **SMOTEENN Algorithm**: Based on the results, our calulated **Balanced Accuracy** Score was 62.4%. The *High Risk* **Precision** and **Recall** scores were 1% and 70%. While the *Low Risk* **Precision** and **Recall** scores were 100% and 55%.
 
+![SMOTEENN Algorithm](SMOTEENN.png "SMOTEENN Algorithm")
 
 ### Ensemble Learners:
 * **Balanced Random Forest Classifier**: Based on the results, our calulated **Balanced Accuracy** Score was 78.8%. The *High Risk* **Precision** and **Recall** scores were 4% and 67%. While the *Low Risk* **Precision** and **Recall** scores were 100% and 91%.
 
+![Balanced Random Forest Classifier](Balanced_Random_Forest_Classifier.png "Balanced Random Forest Classifier")
 
 * **Easy Ensemble AdaBoost Classifier**: Based on the results, our calulated **Balanced Accuracy** Score was 92.5%. The *High Risk* **Precision** and **Recall** scores were 7% and 91%. While the *Low Risk* **Precision** and **Recall** scores were 100% and 94%.
+
+![Easy Ensemble AdaBoost Classifier](Easy_Ensemble_AdaBoost_Classifier.png "Easy Ensemble AdaBoost Classifier")
 
 ## Summary
 Based on the results of all six machine learning models, five of the six machine learning models did not measure up to our criteria for predicting credit card risk. There five models poor to moderate scores in terms of Balance accuracy and low Precision and Recall scores with respect to the High Risk category. Only the Easy Ensemble AdaBoost Classifer managed to display respectable higher scores in all these three categories with a Balance Accuracy score of 92.5%, High Risk Precision and Recall of 7% and 91%, and Low Risk Precision and Recall of 100% and 94%. Keeping this in mind, I would recommend the use of the Easy Ensemble AdaBoost Classifier, but I would exercise caution when deploying its capabilities as its High Risk Precision score is still considered low.
