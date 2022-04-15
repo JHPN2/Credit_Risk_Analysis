@@ -16,4 +16,11 @@ Using the provided credit card credit dataset from LendingClub, we are tasked to
 
 * **SMOTEENN Algorithm**: Based on the results, our calulated **Balanced Accuracy** Score was 62.4%. The *High Risk* **Precision** and **Recall** scores were 1% and 70%. While the *Low Risk* **Precision** and **Recall** scores were 100% and 55%.
 
+
+### Ensemble Learners:
+* **Balanced Random Forest Classifier**: Based on the results, our calulated **Balanced Accuracy** Score was 78.8%. The *High Risk* **Precision** and **Recall** scores were 4% and 67%. While the *Low Risk* **Precision** and **Recall** scores were 100% and 91%.
+
+
+* **Easy Ensemble AdaBoost Classifier**: Based on the results, our calulated **Balanced Accuracy** Score was 92.5%. The *High Risk* **Precision** and **Recall** scores were 7% and 91%. While the *Low Risk* **Precision** and **Recall** scores were 100% and 94%.
+
 ## Summary
